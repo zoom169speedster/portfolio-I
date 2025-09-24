@@ -12,10 +12,10 @@ const Services = () => {
 
         <div className='grid grid-cols-auto gap-6 my-10'>
           {serviceData.map(({icon, title, description, link}, index)=>(
-            <div className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[var(--shadow-black)] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500' key={index}>
+            <div className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[var(--shadow-black)] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white' key={index}>
               <Image className='w-10' src={icon} alt=''/>
-              <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
-              <p className='text-sm text-gray-600 leading-5'>{description}</p>
+              <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</h3>
+              <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>{description}</p>
               <a className='flex items-center gap-2 text-sm mt-5' href={link}>
                 Read more <Image className='w-4' src={assets.right_arrow} alt=''/>
               </a>
