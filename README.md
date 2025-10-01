@@ -1,39 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <span style="vertical-align:middle;">My Next.js Project</span>
+  <img src="./public/next.js.svg" alt="NextJs" width="48" height="48" style="vertical-align:middle; margin-right:8px;" />
+</h1>
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)  
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)  
+[![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)  
 
-First, run the development server:
+A modern web application built with [Next.js](https://nextjs.org), bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
 
 <h1 align="center">
   <img src="./app/favicon.ico" alt="Favicon" height="20" />
@@ -56,7 +33,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 🔗 Live Demo
 
-[🚀 Visit Portfolio Website](https://portfolio-link-will-be-updated.com/)
+[🚀 Visit Portfolio Website](https://alwaysyash.vercel.app)
 
 ---
 
@@ -113,8 +90,40 @@ PORTFOLIO/
 
 ---
 
-## 📄 License
+## 📦 Getting Started  
 
+### 1️⃣ Clone the repo  
+```bash
+git clone https://github.com/zoom169speedster/portfolio-I.git
+cd your-repo
+```
+### 2️⃣ Install dependencies
+```
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+### 3️⃣ Run the development server
+```
+npm run dev
+```
+Now open http://localhost:3000
+ in your browser 🎉
+
+---
+## 📚 Learn More
+
+- 📖 **Next.js Documentation** – [official guides and API reference](https://nextjs.org/docs)
+- 🎓 **Learn Next.js** – [interactive tutorial for beginners](https://nextjs.org/learn)
+- 💻 **Next.js GitHub** – [contribute & explore the source](https://github.com/vercel/next.js)
+
+---
+
+## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
@@ -130,9 +139,9 @@ This project is open-source and available under the [MIT License](LICENSE).
       <a href="mailto:yash274602@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/7286/7286142.png" width="30px" alt="Email" style="margin-left:5px"/></a>
       <a href="https://www.instagram.com/alwaysyash616"><img src="https://cdn-icons-png.flaticon.com/256/3670/3670125.png" width="30px" alt="Instagram" style="margin-left:5px"/></a>
       <a href="https://www.facebook.com/alwaysyash616"><img src="https://cdn-icons-png.flaticon.com/256/733/733547.png" width="30px" alt="Facebook" style="margin-left:5px"/></a>
-      <a href="https://www.linkedin.com/in/alwaysyash616"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png" width="30px" alt="LinkedIn" style="margin-left:5px"/></a>
+      <a href="https://www.linkedin.com/in/alwaysyash"><img src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png" width="30px" alt="LinkedIn" style="margin-left:5px"/></a>
       <a href="https://t.me/alwaysYash616"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" width="30px" alt="Telegram" style="margin-left:5px"/></a>
-      <a href="https://github.com/alwaysyash616"><img src="https://cdn-icons-png.flaticon.com/512/25/25657.png" width="30px" alt="GitHub" style="margin-left:5px"/></a>
+      <a href="https://github.com/zoom169speedster"><img src="https://cdn-icons-png.flaticon.com/512/25/25657.png" width="30px" alt="GitHub" style="margin-left:5px"/></a>
     </td>
   </tr>
 </table>
@@ -141,7 +150,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 - Frontend Mentor: [@alwaysyash616](https://www.frontendmentor.io/profile/alwaysyash616)  
 - Instagram: [@alwaysyash616](https://www.instagram.com/alwaysyash616)  
 - Facebook: [@alwaysyash616](https://www.facebook.com/alwaysyash616)  
-- LinkedIn: [@alwaysyash616](https://www.linkedin.com/in/alwaysyash616)  
+- LinkedIn: [@alwaysyash616](https://www.linkedin.com/in/alwaysyash)  
 - Telegram: [@alwaysYash616](https://t.me/alwaysYash616)  
 - Email: yash274602@gmail.com  
 
